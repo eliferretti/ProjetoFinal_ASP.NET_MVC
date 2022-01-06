@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\FERRETTI\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\FERRETTI\\.nuget\\packages"
+      "C:\\Users\\monte\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\monte\\.nuget\\packages"
     ]
   }
 }

@@ -3,11 +3,11 @@ body {
     color: rgba(0, 0, 0, 0.603);
     text-align: left;
     background-color: #c4c4c420;
-    /*padding: 5rem;
-    letter-spacing: 1px;*/
+    padding: 2rem;
+    letter-spacing: 1px;
 }
 
- 
+
 .card {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .4);
     position: relative;
@@ -58,6 +58,51 @@ body {
             border-left: 3px solid #1558E5;
         }
 
-        /* Forms */
+/* Info Perfil */
 
-       
+.btn-editar {
+    background-color: #1558E5
+}
+
+.btn-excluir,
+.btn-excluir:hover {
+    background-color: #F76879;
+    margin-left: 6rem;
+}
+
+.btnn {
+    width: 300px;
+    margin-top: 5px;
+}
+
+.infos {
+    height: 90vh;
+}
+
+.infos dl {
+    padding: 1rem;
+    line-height: 35px;
+}
+
+.infos img { 
+    width: 5%;
+}
+
+/* Forms */
+
+.card-form form {
+    position: relative;
+    height: 140vh;
+    width: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.form-row {
+    margin-left: 5px;
+}
+

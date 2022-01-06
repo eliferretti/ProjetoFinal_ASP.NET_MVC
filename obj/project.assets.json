@@ -5997,19 +5997,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FERRETTI\\.nuget\\packages\\": {}
+    "C:\\Users\\monte\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj",
+      "projectUniqueName": "C:\\Users\\monte\\OneDrive\\Bruna Lins\\RECODE\\Projeto Refugiados\\Site\\Atual\\Editando\\Andor.csproj",
       "projectName": "Andor",
-      "projectPath": "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj",
-      "packagesPath": "C:\\Users\\FERRETTI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\obj\\",
+      "projectPath": "C:\\Users\\monte\\OneDrive\\Bruna Lins\\RECODE\\Projeto Refugiados\\Site\\Atual\\Editando\\Andor.csproj",
+      "packagesPath": "C:\\Users\\monte\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\monte\\OneDrive\\Bruna Lins\\RECODE\\Projeto Refugiados\\Site\\Atual\\Editando\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\FERRETTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\monte\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
