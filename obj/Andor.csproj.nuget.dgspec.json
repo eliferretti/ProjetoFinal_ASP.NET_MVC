@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FERRETTI\\Desktop\\CLONE GIT PROJETO\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj": {}
+    "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FERRETTI\\Desktop\\CLONE GIT PROJETO\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj": {
+    "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FERRETTI\\Desktop\\CLONE GIT PROJETO\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj",
+        "projectUniqueName": "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj",
         "projectName": "Andor",
-        "projectPath": "C:\\Users\\FERRETTI\\Desktop\\CLONE GIT PROJETO\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj",
+        "projectPath": "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\Andor.csproj",
         "packagesPath": "C:\\Users\\FERRETTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FERRETTI\\Desktop\\CLONE GIT PROJETO\\ProjetoFinal_ASP.NET_MVC\\obj\\",
+        "outputPath": "C:\\Users\\FERRETTI\\Desktop\\Nova pasta\\ProjetoFinal_ASP.NET_MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FERRETTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
