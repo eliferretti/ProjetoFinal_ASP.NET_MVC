@@ -1,0 +1,54 @@
+﻿<div class="container">
+    <table class="table text-light">
+        <thead>
+            <tr>
+                <th>Instituição</th>
+                <th>Título / nome</th>
+                <th>Atividade / Descricao</th>
+                <th>Tipo</th>
+                <th>Salário</th>
+                <th>Endereço</th>
+                <th>Contato</th>
+                <th>Data da postagem</th>
+                <th>Autor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                @{
+                    var trabalhos = ViewData["_trabalhos"] as List<Trabalho>;
+                    var pessoas   = ViewData["_pessoas"]   as List<Pessoa>;
+                    if (pessoas != null && trabalhos != null)
+                    {
+                        <br />
+                        <br />
+                        <br />
+                        <h1>Detalhes da oférta de trabalho</h1>
+                        foreach (var trabalho in trabalhos)
+                        {
+                            <td>@trabalho.Instituicao</td>
+                            <td>@trabalho.Nome</td>
+                            <td>@trabalho.Atividade</td>
+                            <td>@trabalho.Tipo</td>
+                            <td>R$@trabalho.Salario.ToString("#,###,###.00")</td>
+                            <td>@trabalho.Endereco, @trabalho.Numero - @trabalho.Cidade/@trabalho.UF CEP. @trabalho.CEP.ToString("#####-###")</td>
+                            <td>@trabalho.NomeContato Tel. @trabalho.TelefoneContato e-mail: @trabalho.EmailContato</td>
+                            <td>@trabalho.DataCadastro</td>
+                            foreach (var pessoa in pessoas)
+                            {
+                                 <td><a class="text-light" asp-controller="Pessoa" asp-action="PerfilPublico" asp-route-id="@pessoa.Id">@pessoa.Nome</a></td>
+                            }
+                        }
+                    }
+                    else
+                    {
+                        <h1>Algo deu errado!</h1>
+                    }
+
+                }
+           
+            </tr>
+        </tbody>
+    </table>
+</div>
+

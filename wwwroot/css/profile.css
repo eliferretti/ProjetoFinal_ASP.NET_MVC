@@ -1,0 +1,63 @@
+body {
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.603);
+    text-align: left;
+    background-color: #c4c4c420;
+    /*padding: 5rem;
+    letter-spacing: 1px;*/
+}
+
+ 
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .4);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    flex: 1 1 auto;
+    min-height: 1px;
+    cursor: pointer;
+}
+
+    .card img {
+        border-radius: 50%;
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+
+/* padding entre as colunas, responsavel pela responsividade */
+.gutters-sm {
+    margin-right: -3rem;
+    margin-left: -3rem;
+}
+
+    /* [class*=col-] aplica a especificação em todos os grupos col- */
+    .gutters-sm > .col,
+    .gutters-sm > [class*=col-] {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+
+.card ul {
+    margin-top: 0.5rem;
+}
+
+    .card ul > li {
+        line-height: 30px;
+    }
+
+        .card ul > li:hover,
+        .card ul > li:focus {
+            background: #c4c4c420;
+            border-left: 3px solid #1558E5;
+        }
+
+        /* Forms */
+
+       
